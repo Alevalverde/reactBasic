@@ -10,6 +10,7 @@ import { EventosES6, EventosES7, MasSobreEventos } from "./Components/Eventos";
 import Padre from "./Components/ComunicacionComponentes";
 import CicloVida from "./Components/CicloVida";
 import ContadorHooks from "./Components/ContadorHooks";
+import AjaxApis from "./Components/AjaxApis";
 
 //import { compose } from 'async';
 
@@ -48,6 +49,8 @@ function App() {
      <Padre />
      <hr />
      <CicloVida />
+     <hr />
+     <AjaxApis />
      <hr />
      <ContadorHooks />
     </section>
